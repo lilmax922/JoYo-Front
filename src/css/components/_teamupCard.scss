@@ -1,0 +1,61 @@
+#teamup_card {
+  .q-card {
+    width: 95%;
+    height: 400px;
+    margin: auto;
+    font-size: 16px;
+    border-radius: 16px;
+    overflow: hidden;
+
+    .q-img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      transition: 0.5s;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+
+    .title {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      -webkit-line-clamp: 1;
+    }
+
+    .teamup_title {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      -webkit-line-clamp: 1;
+    }
+
+    .q-item__section--main {
+      flex: none;
+      margin-left: 0;
+    }
+
+    .type_tag {
+      font-size: 14px;
+    }
+
+    .moreBtn {
+      position: relative;
+      bottom: 25px;
+      left: 0;
+      padding: 8px 10px;
+      border-radius: 8px;
+      background-color: $primary;
+      color: $dark;
+
+      &:hover {
+        transition: 0.5s;
+        border: 1px solid $primary;
+        color: $primary;
+        background-color: $dark;
+      }
+    }
+  }
+}

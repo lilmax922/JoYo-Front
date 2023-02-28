@@ -1,0 +1,17 @@
+// app global css in SCSS form
+@import "node_modules/vue3-img-input/src/styles/style.scss";
+
+// mixins
+@import './mixins/rwd';
+
+// 全域設定
+@import './global';
+
+// 區塊結構
+
+// components
+@import './components/boardgameCard';
+@import './components/teamupCard';
+
+
+// 功能 

@@ -69,6 +69,7 @@ module.exports = configure(function (/* ctx */) {
 
       // rebuildCache: true, // rebuilds Vite/linter/etc cache on startup
 
+      // 部屬:要與 github 專案名稱相同
       publicPath: '/JoYo-Front',
       // analyze: true,
       env: {

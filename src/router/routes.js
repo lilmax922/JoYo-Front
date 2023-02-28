@@ -174,16 +174,6 @@ const routes = [
         }
       },
       {
-        path: 'manageEvent',
-        name: 'manageEvent',
-        component: () => import('src/pages/admin/ManageEvent.vue'),
-        meta: {
-          title: '揪遊 | 活動管理',
-          login: true,
-          admin: true
-        }
-      },
-      {
         path: 'manageBG',
         name: 'manageBG',
         component: () => import('src/pages/admin/ManageBG.vue'),

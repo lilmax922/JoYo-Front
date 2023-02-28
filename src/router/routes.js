@@ -38,16 +38,6 @@ const routes = [
         }
       },
       {
-        path: 'event',
-        name: 'event',
-        component: () => import('src/pages/frontPages/EventPage.vue'),
-        meta: {
-          title: '揪遊 | 本期EVENT',
-          login: false,
-          admin: false
-        }
-      },
-      {
         path: 'searchTeamups',
         name: 'searchTeamups',
         component: () => import('src/pages/frontPages/SearchTeamupsPage.vue'),

@@ -1,0 +1,1 @@
+import{j as e,k as t,l as n,_ as o}from"./index.775c1661.js";const s={id:"adminIndex"},a=n("h1",null,"\u9078\u64C7\u7DE8\u8F2F\u9801\u9762",-1),c=[a];function r(d,i){return e(),t("div",s,c)}const _={};var f=o(_,[["render",r]]);export{f as default};

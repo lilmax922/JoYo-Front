@@ -1,5 +1,5 @@
 <script setup>
-import { ref } from 'vue'
+import { onMounted, onUnmounted, ref } from 'vue'
 import { storeToRefs } from 'pinia'
 import { useUserStore } from 'src/stores/user'
 import LoginCard from 'src/components/LoginCard.vue'
@@ -29,6 +29,7 @@ const adminDropdown = [
   },
   { icon: 'mdi-account-group', text: '揪團管理', to: '/admin/manageTeamup' }
 ]
+const isScrolled = ref('')
 
 const toggleRegisterCardHandler = (type) => {
   showRegisterCard.value = type
@@ -38,23 +39,25 @@ const close = () => {
   showLoginCard.value = false
 }
 
-// onMounted(() => {
-//   const navbar = this.$refs.navbar
+const handleScroll = () => {
+  const scrollPosition = window.scrollY
+  isScrolled.value = scrollPosition
+}
+console.log(isScrolled.value)
 
-//   window.addEventListener('scroll', () => {
-//     // Change navbar color when scrolling up
-//     if (window.scrollY > 0) {
-//       navbar.style.backgroundColor = 'orange'
-//     } else {
-//       navbar.style.backgroundColor = ''
-//     }
-//   })
-// })
+onMounted(() => {
+  window.addEventListener('scroll', handleScroll)
+  handleScroll()
+})
+
+onUnmounted(() => {
+  window.removeEventListener('scroll', handleScroll)
+})
 </script>
 
 <template>
   <q-layout id="mainlayout" view="hHh lpR fff">
-    <q-header class="header flex flex-center" reveal>
+    <q-header id="header" :class="{'navbar_dark' : isScrolled, 'navbar_transparent' : !isScrolled}"  reveal>
       <q-toolbar class="row" style="width: 100%">
         <q-toolbar-title class="col-xs-4 col-md-3">
           <router-link to="/">
@@ -203,7 +206,7 @@ const close = () => {
         position="bottom-right"
         :scroll-offset="2000"
         :offset="[18, 18]"
-        duration="500"
+        :duration="500"
       >
         <q-btn fab icon="mdi-arrow-up" color="primary" />
       </q-page-scroller>
@@ -238,9 +241,18 @@ const close = () => {
 <style lang="scss">
 #mainlayout {
   width: 100%;
-  .header {
+
+  .navbar_dark {
+    background-color: $dark;
+  }
+
+  .navbar_transparent {
+    background-color: transparent;
+  }
+
+  #header {
     width: 100%;
-    background-color: rgba(255, 255, 255, 0);
+    // background-color: rgba(255, 255, 255, 0);
 
     .logo {
       height: 90%;

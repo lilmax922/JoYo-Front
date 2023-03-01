@@ -162,7 +162,7 @@ const onSubmit = async () => {
             <q-icon size="1.5em" name="chevron_right" />
           </template>
           <q-breadcrumbs-el icon="mdi-home" to="/" />
-          <q-breadcrumbs-el label="揪團組隊" to="/searchTeamups" />
+          <q-breadcrumbs-el label="搜尋揪團" to="/searchTeamups" />
           <q-breadcrumbs-el :label="teamup.title"></q-breadcrumbs-el>
         </q-breadcrumbs>
       </div>

@@ -62,11 +62,11 @@ getAllTeamups()
             <q-icon size="1.5em" name="chevron_right" />
           </template>
           <q-breadcrumbs-el icon="mdi-home" to="/" />
-          <q-breadcrumbs-el label="揪團組隊" />
+          <q-breadcrumbs-el label="搜尋揪團" />
         </q-breadcrumbs>
       </div>
       <section class="header flex items-center q-mt-xl">
-        <div class="header-text text-h3 q-pr-lg">揪團組隊</div>
+        <div class="header-text text-h3 q-pr-lg">搜尋揪團</div>
         <q-btn class="teamup_btn gt-sm" label="我要揪團" to="/teamup" />
       </section>
 

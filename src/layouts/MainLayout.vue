@@ -73,8 +73,8 @@ onUnmounted(() => {
         >
           <q-route-tab to="/" label="首頁" />
           <q-route-tab to="/exploreBGs" label="探索桌遊" />
-          <q-route-tab to="/searchTeamups" label="揪團組隊" />
-          <q-route-tab to="/teamup" label="我要揪團" />
+          <q-route-tab to="/searchTeamups" label="搜尋揪團" />
+          <q-route-tab to="/teamup" label="揪團組隊" />
           <q-route-tab to="/reservation" label="手刀預約" />
         </q-tabs>
         <q-space />
@@ -185,10 +185,10 @@ onUnmounted(() => {
                   <q-item-section>探索桌遊</q-item-section>
                 </q-item>
                 <q-item clickable to="/searchTeamups">
-                  <q-item-section>揪團組隊</q-item-section>
+                  <q-item-section>搜尋揪團</q-item-section>
                 </q-item>
                 <q-item clickable to="/teamup">
-                  <q-item-section>我要揪團</q-item-section>
+                  <q-item-section>揪團組隊</q-item-section>
                 </q-item>
                 <q-item clickable to="/reservation">
                   <q-item-section>手刀預約</q-item-section>

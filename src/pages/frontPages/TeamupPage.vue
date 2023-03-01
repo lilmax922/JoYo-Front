@@ -172,7 +172,7 @@ teamupForm.selectedDate = `${date.getFullYear()}-0${
             <q-icon name="chevron_right" size="1.5em" />
           </template>
           <q-breadcrumbs-el icon="mdi-home" to="/" />
-          <q-breadcrumbs-el label="我要揪團" />
+          <q-breadcrumbs-el label="揪團組隊" />
         </q-breadcrumbs>
       </div>
 

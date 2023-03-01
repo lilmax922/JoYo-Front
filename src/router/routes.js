@@ -42,7 +42,7 @@ const routes = [
         name: 'searchTeamups',
         component: () => import('src/pages/frontPages/SearchTeamupsPage.vue'),
         meta: {
-          title: '揪遊 | 揪團組隊',
+          title: '揪遊 | 搜尋揪團',
           login: false,
           admin: false
         }
@@ -64,7 +64,7 @@ const routes = [
         name: 'teamup',
         component: () => import('src/pages/frontPages/TeamupPage.vue'),
         meta: {
-          title: '揪遊 | 我要揪團',
+          title: '揪遊 | 揪團組隊',
           login: true,
           admin: false
         }

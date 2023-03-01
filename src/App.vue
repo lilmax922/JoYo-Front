@@ -10,7 +10,7 @@ export default defineComponent({
   setup () {
     onMounted(() => {
       if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) {
-        document.documentElement.classList.add('body-dark')
+        document.documentElement.classList.add('q-dark')
       }
     })
   }

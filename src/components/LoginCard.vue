@@ -1,5 +1,5 @@
 <script setup>
-import { reactive, ref } from 'vue'
+import { reactive } from 'vue'
 import validator from 'validator'
 import { useUserStore } from 'src/stores/user'
 
@@ -35,10 +35,12 @@ const login = async () => {
 </script>
 
 <template lang="pug">
-q-card#login-card(flat style="width:1000px")
-  q-card-section(horizontal)
-    q-card-section.col-8.text-center
-      h5.text-center 會員登入
+q-card#login_card(flat)
+  q-btn.close-btn(icon="close" flat v-close-popup)
+  q-card-section.flex.col-sm
+    q-card-section.col-xs-12.col-md-8.column.text-center(style="flex-grow:1")
+      q-img.first_logo.q-mb-md(src="../assets/logo.png" style="display:none;")
+      //- p.text-h4.text-center 會員登入
       q-form(@submit="login").q-gutter-sm
         q-input(rounded standout clearable v-model='loginForm.email' label='電子信箱' :rules="[rules.required ,rules.email]")
           template(v-slot:prepend)
@@ -50,20 +52,28 @@ q-card#login-card(flat style="width:1000px")
             q-icon.cursor-pointer(:name="loginForm.isPwd ? 'visibility_off' : 'visibility'" @click="loginForm.isPwd = !loginForm.isPwd")
         q-btn.confirm_btn(label="登入" type="submit")
 
-    q-separator
+    q-separator.gt-md
 
-    q-card-section.col-4.flex-center.column
-      q-img.q-mb-md(src="../assets/logo.png")
-      q-btn.close-btn(icon="close" flat v-close-popup)
+    q-card-section.logo_area.col-xs-12.col-md-4.flex-center.column
+      q-img.secondary_logo.q-mb-md(src="../assets/logo.png")
+
       p 還沒建立帳號嗎?
       q-btn.action_btn(label="註冊" @click="emit('showRegisterCard', true)")
 </template>
 
 <style lang="scss" scoped>
-  .close-btn {
-    top: -50%;
-    left: 35%;
+#login_card {
+  width: 2000px;
+    .close-btn {
+    position: absolute;
+    top: 3%;
+    right: 3%;
+    z-index: 5;
   }
+
+.logo_area {
+  flex-grow: 1;
+}
 
   .action_btn {
     padding: 5px 3px;
@@ -91,4 +101,18 @@ q-card#login-card(flat style="width:1000px")
         border: 1px solid $primary;
       }
     }
+
+    @media (max-width:536px) {
+      .first_logo {
+        display: block !important;
+        width: 60%;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+      .secondary_logo {
+        display: none;
+      }
+    }
+  }
 </style>

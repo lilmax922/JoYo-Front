@@ -40,7 +40,6 @@ q-card#login_card(flat)
   q-card-section.flex.col-sm
     q-card-section.col-xs-12.col-md-8.column.text-center(style="flex-grow:1")
       q-img.first_logo.q-mb-md(src="../assets/logo.png" style="display:none;")
-      //- p.text-h4.text-center 會員登入
       q-form(@submit="login").q-gutter-sm
         q-input(rounded standout clearable v-model='loginForm.email' label='電子信箱' :rules="[rules.required ,rules.email]")
           template(v-slot:prepend)

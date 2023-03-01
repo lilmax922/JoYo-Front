@@ -3,7 +3,6 @@ import { Notify } from 'quasar'
 import { ref, reactive } from 'vue'
 import { useRouter } from 'vue-router'
 import validator from 'validator'
-import { api } from 'src/boot/axios'
 import { useUserStore } from 'src/stores/user'
 
 const { register } = useUserStore()
@@ -75,9 +74,8 @@ q-card#register-card(flat style="width:1500px")
     q-separator
 
     q-card-section.col-8.text-center
-      h5.text-center 會員註冊
       q-form(@submit="registerHandler").q-gutter-sm
-        q-input.bottom-slots(rounded standout clearable counter maxlength="不限" v-model='registerForm.email' label='電子信箱' :rules="[rules.required ,rules.email,]")
+        q-input.q-mt-lg.bottom-slots(rounded standout clearable counter maxlength="不限" v-model='registerForm.email' label='電子信箱' :rules="[rules.required ,rules.email,]")
           template(v-slot:prepend)
             q-icon(name="mdi-email")
           template(v-slot:append)

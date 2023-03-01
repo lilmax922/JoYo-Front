@@ -3,16 +3,9 @@
 </template>
 
 <script>
-import { defineComponent, onMounted } from 'vue'
+import { defineComponent } from 'vue'
 
 export default defineComponent({
-  name: 'App',
-  setup () {
-    onMounted(() => {
-      if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) {
-        document.documentElement.classList.add('q-dark')
-      }
-    })
-  }
+  name: 'App'
 })
 </script>

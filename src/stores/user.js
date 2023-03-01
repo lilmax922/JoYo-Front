@@ -2,7 +2,6 @@ import { defineStore } from 'pinia'
 import { ref, computed, reactive } from 'vue'
 import { Notify } from 'quasar'
 import { api, apiAuth } from 'boot/axios.js'
-// 123
 
 export const useUserStore = defineStore('user', () => {
   const _id = ref('')

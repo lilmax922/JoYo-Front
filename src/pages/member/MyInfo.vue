@@ -68,15 +68,6 @@ const onSubmit = async () => {
             <q-avatar size="150px">
               <q-img :src="avatar" />
             </q-avatar>
-            <!-- <q-btn
-              class="editBtn"
-              @click="userForm.editAvatar = true"
-              icon="mdi-circle-edit-outline"
-              flat
-              rounded
-              dense
-              color="primary"
-            /> -->
           </div>
         </div>
         <div class="row flex flex-center q-gutter-md">
@@ -210,6 +201,12 @@ const onSubmit = async () => {
       color: $primary;
       background-color: $dark;
       border: 1px solid $primary;
+    }
+  }
+
+  @media (max-width:992px) {
+    .row {
+      width: 100%;
     }
   }
 }

@@ -45,17 +45,7 @@ const rules = {
 }
 
 const registerHandler = async () => {
-  await register()
-  setTimeout(() => {
-    Notify.create({
-      spinner: true,
-      timeout: 1500,
-      message: '註冊成功',
-      textColor: 'primary',
-      icon: 'mdi-emoticon-happy-outline',
-      color: 'white'
-    })
-  }, 3000)
+  await register(registerForm)
   router.push('/')
   emit('closeDialog')
 }

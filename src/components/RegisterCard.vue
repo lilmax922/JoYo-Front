@@ -89,9 +89,11 @@ q-card#register-card(flat style="width:1500px")
 </template>
 
 <style lang="scss" scoped>
+#register-card{
   .close-btn {
-    top: -99%;
-    left: 230%;
+    position: absolute;
+    top: 0%;
+    right: -200%;
     z-index: 1;
   }
 
@@ -121,4 +123,5 @@ q-card#register-card(flat style="width:1500px")
         border: 1px solid $primary;
       }
     }
+  }
 </style>

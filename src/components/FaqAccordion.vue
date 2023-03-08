@@ -31,7 +31,7 @@ const faqs = reactive([
 </script>
 
 <template>
-    <q-list bordered>
+    <q-list id="faq" bordered>
       <q-expansion-item
         v-for="faq in faqs"
         :key="faq"

@@ -69,6 +69,7 @@ watch(
 
       // 被預訂的時間與時數
       const reservedTimeAndHours = []
+
       availableTimeBtn.forEach((btn) => {
         btn.available = true
         return btn

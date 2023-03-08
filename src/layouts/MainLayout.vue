@@ -43,7 +43,6 @@ const handleScroll = () => {
   const scrollPosition = window.scrollY
   isScrolled.value = scrollPosition
 }
-console.log(isScrolled.value)
 
 onMounted(() => {
   window.addEventListener('scroll', handleScroll)

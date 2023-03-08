@@ -36,7 +36,7 @@ const login = async () => {
 
 <template lang="pug">
 q-card#login_card(flat)
-  q-btn.close-btn(icon="close" flat v-close-popup)
+  q-btn.close-btn(icon="close" flat v-close-popup dense)
   q-card-section.flex.col-sm
     q-card-section.col-xs-12.col-md-8.column.text-center(style="flex-grow:1")
       q-img.first_logo.q-mb-md(src="../assets/logo.png" style="display:none;")

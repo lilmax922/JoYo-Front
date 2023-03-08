@@ -56,7 +56,7 @@ q-card#register_card(flat style="width:1500px")
     q-card-section.col-4.flex-center.column
       .flex.justify-center
         q-img.q-mb-xl(src="../assets/logo.png")
-        q-btn.close-btn(icon="close" flat v-close-popup)
+        q-btn.close-btn(icon="close" flat v-close-popup dense)
         p 已經註冊過了?
         q-btn.action_btn(label="登入" @click="emit('showRegisterCard', false)")
 
@@ -93,7 +93,7 @@ q-card#register_card(flat style="width:1500px")
   .close-btn {
     position: absolute;
     top: 0%;
-    right: -200%;
+    right: -195%;
     z-index: 1;
   }
 

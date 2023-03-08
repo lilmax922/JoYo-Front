@@ -1,5 +1,4 @@
 <script setup>
-import { Notify } from 'quasar'
 import { ref, reactive } from 'vue'
 import { useRouter } from 'vue-router'
 import validator from 'validator'
@@ -91,8 +90,8 @@ q-card#register-card(flat style="width:1500px")
 
 <style lang="scss" scoped>
   .close-btn {
-    top: -120%;
-    left: 275%;
+    top: -99%;
+    left: 230%;
     z-index: 1;
   }
 

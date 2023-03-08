@@ -171,7 +171,7 @@ const onSubmit = async () => {
         <q-form @submit="onSubmit" class="teamup_wrap q-mt-xl">
           <q-card class="teamup_card" flat>
             <q-card-section class="q-pa-xl row">
-              <q-card-section class="col-xs-12 col-lg-5">
+              <q-card-section class="img_area col-xs-12 col-lg-5">
                 <q-img class="card_img" :src="teamup.cardImage" />
               </q-card-section>
 
@@ -186,13 +186,13 @@ const onSubmit = async () => {
                 </div>
 
                 <div class="title_area q-mt-md">
-                  <div class="text-h2">{{ teamup.title }}</div>
+                  <div class="teamup_title text-h4">{{ teamup.title }}</div>
                 </div>
 
                 <q-separator class="q-my-lg" />
 
                 <div class="content_area">
-                  <div class="text-h4">{{ teamup.content }}</div>
+                  <div class="teamup_content text-h5">{{ teamup.content }}</div>
                 </div>
 
                 <div class="icon_area q-mt-lg">
@@ -308,7 +308,7 @@ const onSubmit = async () => {
   }
 
   .teamup_card {
-    max-height: 800px;
+    // max-height: 800px;
     overflow: hidden;
     border-radius: 16px;
 
@@ -338,7 +338,7 @@ const onSubmit = async () => {
       }
 
       .joinBtn {
-        width: 200px;
+        width: 130px;
         position: absolute;
         top: 85%;
         right: 0;
@@ -356,7 +356,7 @@ const onSubmit = async () => {
       }
 
       .cancelBtn {
-        width: 200px;
+        width: 130px;
         position: absolute;
         top: 85%;
         right: 0;
@@ -385,6 +385,30 @@ const onSubmit = async () => {
     .title {
       border-left: 15px solid $primary;
       padding-left: 1rem;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .q-card__section {
+      padding: 1rem !important;
+      .teamup_title {
+        font-size: 2rem;
+        font-weight: 500;
+      }
+
+      .teamup_content {
+        font-size: 1.5rem;
+      }
+    }
+  }
+
+  @media (max-width: 435px) {
+    .joinBtn, .cancelBtn {
+      position: relative !important;
+      margin-top: 1rem;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 200px !important;
     }
   }
 }

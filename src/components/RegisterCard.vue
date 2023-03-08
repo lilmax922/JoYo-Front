@@ -51,7 +51,7 @@ const registerHandler = async () => {
 </script>
 
 <template lang="pug">
-q-card#register-card(flat style="width:1500px")
+q-card#register_card(flat style="width:1500px")
   q-card-section(horizontal)
     q-card-section.col-4.flex-center.column
       .flex.justify-center
@@ -89,7 +89,7 @@ q-card#register-card(flat style="width:1500px")
 </template>
 
 <style lang="scss" scoped>
-#register-card{
+#register_card{
   .close-btn {
     position: absolute;
     top: 0%;

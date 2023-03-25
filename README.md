@@ -1,4 +1,4 @@
-# 【管理者帳號】 帳號:admin@admin.com 密碼:admin
+### 【管理者帳號】 帳號:admin@admin.com 密碼:admin
 
 # Quasar App (quasar-project)
 

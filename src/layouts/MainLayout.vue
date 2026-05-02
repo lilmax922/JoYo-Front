@@ -230,7 +230,7 @@ onUnmounted(() => {
           <img src="../assets/logo.png" />
         </q-avatar>
         <span class="text-center" style="font-size: 14px"
-          >©2023 泰山職訓 網頁專題設計 by 胡俊宇</span
+          >© {{ new Date().getFullYear() }}, Max Hu - All rights reserved.</span
         >
       </q-toolbar>
     </q-footer>

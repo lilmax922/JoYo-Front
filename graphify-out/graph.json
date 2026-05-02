@@ -1,0 +1,871 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "quasar.config.js",
+      "file_type": "code",
+      "source_file": "quasar.config.js",
+      "source_location": "L1",
+      "id": "quasar_config_js",
+      "community": 10,
+      "norm_label": "quasar.config.js"
+    },
+    {
+      "label": "postcss.config.js",
+      "file_type": "code",
+      "source_file": "postcss.config.js",
+      "source_location": "L1",
+      "id": "postcss_config_js",
+      "community": 11,
+      "norm_label": "postcss.config.js"
+    },
+    {
+      "label": "App.vue",
+      "file_type": "code",
+      "source_file": "src/App.vue",
+      "source_location": "L1",
+      "id": "src_app_vue",
+      "community": 12,
+      "norm_label": "app.vue"
+    },
+    {
+      "label": "img-input.js",
+      "file_type": "code",
+      "source_file": "src/boot/img-input.js",
+      "source_location": "L1",
+      "id": "src_boot_img_input_js",
+      "community": 13,
+      "norm_label": "img-input.js"
+    },
+    {
+      "label": "axios.js",
+      "file_type": "code",
+      "source_file": "src/boot/axios.js",
+      "source_location": "L1",
+      "id": "src_boot_axios_js",
+      "community": 14,
+      "norm_label": "axios.js"
+    },
+    {
+      "label": "swiper.js",
+      "file_type": "code",
+      "source_file": "src/boot/swiper.js",
+      "source_location": "L1",
+      "id": "src_boot_swiper_js",
+      "community": 15,
+      "norm_label": "swiper.js"
+    },
+    {
+      "label": "i18n.js",
+      "file_type": "code",
+      "source_file": "src/boot/i18n.js",
+      "source_location": "L1",
+      "id": "src_boot_i18n_js",
+      "community": 16,
+      "norm_label": "i18n.js"
+    },
+    {
+      "label": "teamup.js",
+      "file_type": "code",
+      "source_file": "src/stores/teamup.js",
+      "source_location": "L1",
+      "id": "src_stores_teamup_js",
+      "community": 17,
+      "norm_label": "teamup.js"
+    },
+    {
+      "label": "boardgame.js",
+      "file_type": "code",
+      "source_file": "src/stores/boardgame.js",
+      "source_location": "L1",
+      "id": "src_stores_boardgame_js",
+      "community": 18,
+      "norm_label": "boardgame.js"
+    },
+    {
+      "label": "user.js",
+      "file_type": "code",
+      "source_file": "src/stores/user.js",
+      "source_location": "L1",
+      "id": "src_stores_user_js",
+      "community": 19,
+      "norm_label": "user.js"
+    },
+    {
+      "label": "reservation.js",
+      "file_type": "code",
+      "source_file": "src/stores/reservation.js",
+      "source_location": "L1",
+      "id": "src_stores_reservation_js",
+      "community": 20,
+      "norm_label": "reservation.js"
+    },
+    {
+      "label": "store-flag.d.ts",
+      "file_type": "code",
+      "source_file": "src/stores/store-flag.d.ts",
+      "source_location": "L1",
+      "id": "src_stores_store_flag_d_ts",
+      "community": 21,
+      "norm_label": "store-flag.d.ts"
+    },
+    {
+      "label": "index.js",
+      "file_type": "code",
+      "source_file": "src/stores/index.js",
+      "source_location": "L1",
+      "id": "src_stores_index_js",
+      "community": 22,
+      "norm_label": "index.js"
+    },
+    {
+      "label": "FaqAccordion.vue",
+      "file_type": "code",
+      "source_file": "src/components/FaqAccordion.vue",
+      "source_location": "L1",
+      "id": "src_components_faqaccordion_vue",
+      "community": 23,
+      "norm_label": "faqaccordion.vue"
+    },
+    {
+      "label": "TeamupCard.vue",
+      "file_type": "code",
+      "source_file": "src/components/TeamupCard.vue",
+      "source_location": "L1",
+      "id": "src_components_teamupcard_vue",
+      "community": 4,
+      "norm_label": "teamupcard.vue"
+    },
+    {
+      "label": "default()",
+      "file_type": "code",
+      "source_file": "src/components/TeamupCard.vue",
+      "source_location": "L17",
+      "id": "components_teamupcard_default",
+      "community": 4,
+      "norm_label": "default()"
+    },
+    {
+      "label": "LoginCard.vue",
+      "file_type": "code",
+      "source_file": "src/components/LoginCard.vue",
+      "source_location": "L1",
+      "id": "src_components_logincard_vue",
+      "community": 3,
+      "norm_label": "logincard.vue"
+    },
+    {
+      "label": "required()",
+      "file_type": "code",
+      "source_file": "src/components/LoginCard.vue",
+      "source_location": "L21",
+      "id": "components_logincard_required",
+      "community": 3,
+      "norm_label": "required()"
+    },
+    {
+      "label": "length()",
+      "file_type": "code",
+      "source_file": "src/components/LoginCard.vue",
+      "source_location": "L24",
+      "id": "components_logincard_length",
+      "community": 3,
+      "norm_label": "length()"
+    },
+    {
+      "label": "RegisterCard.vue",
+      "file_type": "code",
+      "source_file": "src/components/RegisterCard.vue",
+      "source_location": "L1",
+      "id": "src_components_registercard_vue",
+      "community": 1,
+      "norm_label": "registercard.vue"
+    },
+    {
+      "label": "phone()",
+      "file_type": "code",
+      "source_file": "src/components/RegisterCard.vue",
+      "source_location": "L27",
+      "id": "components_registercard_phone",
+      "community": 1,
+      "norm_label": "phone()"
+    },
+    {
+      "label": "required()",
+      "file_type": "code",
+      "source_file": "src/components/RegisterCard.vue",
+      "source_location": "L30",
+      "id": "components_registercard_required",
+      "community": 1,
+      "norm_label": "required()"
+    },
+    {
+      "label": "length()",
+      "file_type": "code",
+      "source_file": "src/components/RegisterCard.vue",
+      "source_location": "L33",
+      "id": "components_registercard_length",
+      "community": 1,
+      "norm_label": "length()"
+    },
+    {
+      "label": "nickname()",
+      "file_type": "code",
+      "source_file": "src/components/RegisterCard.vue",
+      "source_location": "L38",
+      "id": "components_registercard_nickname",
+      "community": 1,
+      "norm_label": "nickname()"
+    },
+    {
+      "label": "confirmPassword()",
+      "file_type": "code",
+      "source_file": "src/components/RegisterCard.vue",
+      "source_location": "L41",
+      "id": "components_registercard_confirmpassword",
+      "community": 1,
+      "norm_label": "confirmpassword()"
+    },
+    {
+      "label": "BoardgameCard.vue",
+      "file_type": "code",
+      "source_file": "src/components/BoardgameCard.vue",
+      "source_location": "L1",
+      "id": "src_components_boardgamecard_vue",
+      "community": 5,
+      "norm_label": "boardgamecard.vue"
+    },
+    {
+      "label": "default()",
+      "file_type": "code",
+      "source_file": "src/components/BoardgameCard.vue",
+      "source_location": "L17",
+      "id": "components_boardgamecard_default",
+      "community": 5,
+      "norm_label": "default()"
+    },
+    {
+      "label": "MemberLayout.vue",
+      "file_type": "code",
+      "source_file": "src/layouts/MemberLayout.vue",
+      "source_location": "L1",
+      "id": "src_layouts_memberlayout_vue",
+      "community": 24,
+      "norm_label": "memberlayout.vue"
+    },
+    {
+      "label": "MainLayout.vue",
+      "file_type": "code",
+      "source_file": "src/layouts/MainLayout.vue",
+      "source_location": "L1",
+      "id": "src_layouts_mainlayout_vue",
+      "community": 25,
+      "norm_label": "mainlayout.vue"
+    },
+    {
+      "label": "AdminLayout.vue",
+      "file_type": "code",
+      "source_file": "src/layouts/AdminLayout.vue",
+      "source_location": "L1",
+      "id": "src_layouts_adminlayout_vue",
+      "community": 26,
+      "norm_label": "adminlayout.vue"
+    },
+    {
+      "label": "index.js",
+      "file_type": "code",
+      "source_file": "src/i18n/index.js",
+      "source_location": "L1",
+      "id": "src_i18n_index_js",
+      "community": 27,
+      "norm_label": "index.js"
+    },
+    {
+      "label": "index.js",
+      "file_type": "code",
+      "source_file": "src/i18n/en-US/index.js",
+      "source_location": "L1",
+      "id": "src_i18n_en_us_index_js",
+      "community": 28,
+      "norm_label": "index.js"
+    },
+    {
+      "label": "IndexPage.vue",
+      "file_type": "code",
+      "source_file": "src/pages/IndexPage.vue",
+      "source_location": "L1",
+      "id": "src_pages_indexpage_vue",
+      "community": 29,
+      "norm_label": "indexpage.vue"
+    },
+    {
+      "label": "ErrorNotFound.vue",
+      "file_type": "code",
+      "source_file": "src/pages/ErrorNotFound.vue",
+      "source_location": "L1",
+      "id": "src_pages_errornotfound_vue",
+      "community": 30,
+      "norm_label": "errornotfound.vue"
+    },
+    {
+      "label": "BGInfoPage.vue",
+      "file_type": "code",
+      "source_file": "src/pages/frontPages/BGInfoPage.vue",
+      "source_location": "L1",
+      "id": "src_pages_frontpages_bginfopage_vue",
+      "community": 31,
+      "norm_label": "bginfopage.vue"
+    },
+    {
+      "label": "ReservationPage.vue",
+      "file_type": "code",
+      "source_file": "src/pages/frontPages/ReservationPage.vue",
+      "source_location": "L1",
+      "id": "src_pages_frontpages_reservationpage_vue",
+      "community": 6,
+      "norm_label": "reservationpage.vue"
+    },
+    {
+      "label": "if()",
+      "file_type": "code",
+      "source_file": "src/pages/frontPages/ReservationPage.vue",
+      "source_location": "L56",
+      "id": "frontpages_reservationpage_if",
+      "community": 6,
+      "norm_label": "if()"
+    },
+    {
+      "label": "SearchTeamupsPage.vue",
+      "file_type": "code",
+      "source_file": "src/pages/frontPages/SearchTeamupsPage.vue",
+      "source_location": "L1",
+      "id": "src_pages_frontpages_searchteamupspage_vue",
+      "community": 32,
+      "norm_label": "searchteamupspage.vue"
+    },
+    {
+      "label": "JoinTeamupPage.vue",
+      "file_type": "code",
+      "source_file": "src/pages/frontPages/JoinTeamupPage.vue",
+      "source_location": "L1",
+      "id": "src_pages_frontpages_jointeamuppage_vue",
+      "community": 7,
+      "norm_label": "jointeamuppage.vue"
+    },
+    {
+      "label": "await()",
+      "file_type": "code",
+      "source_file": "src/pages/frontPages/JoinTeamupPage.vue",
+      "source_location": "L103",
+      "id": "frontpages_jointeamuppage_await",
+      "community": 7,
+      "norm_label": "await()"
+    },
+    {
+      "label": "ExploreBGs.vue",
+      "file_type": "code",
+      "source_file": "src/pages/frontPages/ExploreBGs.vue",
+      "source_location": "L1",
+      "id": "src_pages_frontpages_explorebgs_vue",
+      "community": 33,
+      "norm_label": "explorebgs.vue"
+    },
+    {
+      "label": "TeamupPage.vue",
+      "file_type": "code",
+      "source_file": "src/pages/frontPages/TeamupPage.vue",
+      "source_location": "L1",
+      "id": "src_pages_frontpages_teamuppage_vue",
+      "community": 8,
+      "norm_label": "teamuppage.vue"
+    },
+    {
+      "label": "length()",
+      "file_type": "code",
+      "source_file": "src/pages/frontPages/TeamupPage.vue",
+      "source_location": "L44",
+      "id": "frontpages_teamuppage_length",
+      "community": 8,
+      "norm_label": "length()"
+    },
+    {
+      "label": "MyTeamup.vue",
+      "file_type": "code",
+      "source_file": "src/pages/member/MyTeamup.vue",
+      "source_location": "L1",
+      "id": "src_pages_member_myteamup_vue",
+      "community": 34,
+      "norm_label": "myteamup.vue"
+    },
+    {
+      "label": "TestPage.vue",
+      "file_type": "code",
+      "source_file": "src/pages/member/TestPage.vue",
+      "source_location": "L1",
+      "id": "src_pages_member_testpage_vue",
+      "community": 35,
+      "norm_label": "testpage.vue"
+    },
+    {
+      "label": "MyInfo.vue",
+      "file_type": "code",
+      "source_file": "src/pages/member/MyInfo.vue",
+      "source_location": "L1",
+      "id": "src_pages_member_myinfo_vue",
+      "community": 36,
+      "norm_label": "myinfo.vue"
+    },
+    {
+      "label": "MyReservation.vue",
+      "file_type": "code",
+      "source_file": "src/pages/member/MyReservation.vue",
+      "source_location": "L1",
+      "id": "src_pages_member_myreservation_vue",
+      "community": 37,
+      "norm_label": "myreservation.vue"
+    },
+    {
+      "label": "ManageBG.vue",
+      "file_type": "code",
+      "source_file": "src/pages/admin/ManageBG.vue",
+      "source_location": "L1",
+      "id": "src_pages_admin_managebg_vue",
+      "community": 2,
+      "norm_label": "managebg.vue"
+    },
+    {
+      "label": "if()",
+      "file_type": "code",
+      "source_file": "src/pages/admin/ManageBG.vue",
+      "source_location": "L90",
+      "id": "admin_managebg_if",
+      "community": 2,
+      "norm_label": "if()"
+    },
+    {
+      "label": "isYtUrl()",
+      "file_type": "code",
+      "source_file": "src/pages/admin/ManageBG.vue",
+      "source_location": "L243",
+      "id": "admin_managebg_isyturl",
+      "community": 2,
+      "norm_label": "isyturl()"
+    },
+    {
+      "label": "gameTime()",
+      "file_type": "code",
+      "source_file": "src/pages/admin/ManageBG.vue",
+      "source_location": "L246",
+      "id": "admin_managebg_gametime",
+      "community": 2,
+      "norm_label": "gametime()"
+    },
+    {
+      "label": "age()",
+      "file_type": "code",
+      "source_file": "src/pages/admin/ManageBG.vue",
+      "source_location": "L249",
+      "id": "admin_managebg_age",
+      "community": 2,
+      "norm_label": "age()"
+    },
+    {
+      "label": "ManageAccount.vue",
+      "file_type": "code",
+      "source_file": "src/pages/admin/ManageAccount.vue",
+      "source_location": "L1",
+      "id": "src_pages_admin_manageaccount_vue",
+      "community": 0,
+      "norm_label": "manageaccount.vue"
+    },
+    {
+      "label": "phone()",
+      "file_type": "code",
+      "source_file": "src/pages/admin/ManageAccount.vue",
+      "source_location": "L32",
+      "id": "admin_manageaccount_phone",
+      "community": 0,
+      "norm_label": "phone()"
+    },
+    {
+      "label": "required()",
+      "file_type": "code",
+      "source_file": "src/pages/admin/ManageAccount.vue",
+      "source_location": "L35",
+      "id": "admin_manageaccount_required",
+      "community": 0,
+      "norm_label": "required()"
+    },
+    {
+      "label": "length()",
+      "file_type": "code",
+      "source_file": "src/pages/admin/ManageAccount.vue",
+      "source_location": "L38",
+      "id": "admin_manageaccount_length",
+      "community": 0,
+      "norm_label": "length()"
+    },
+    {
+      "label": "nickname()",
+      "file_type": "code",
+      "source_file": "src/pages/admin/ManageAccount.vue",
+      "source_location": "L43",
+      "id": "admin_manageaccount_nickname",
+      "community": 0,
+      "norm_label": "nickname()"
+    },
+    {
+      "label": "confirmPassword()",
+      "file_type": "code",
+      "source_file": "src/pages/admin/ManageAccount.vue",
+      "source_location": "L48",
+      "id": "admin_manageaccount_confirmpassword",
+      "community": 0,
+      "norm_label": "confirmpassword()"
+    },
+    {
+      "label": "if()",
+      "file_type": "code",
+      "source_file": "src/pages/admin/ManageAccount.vue",
+      "source_location": "L109",
+      "id": "admin_manageaccount_if",
+      "community": 0,
+      "norm_label": "if()"
+    },
+    {
+      "label": "IndexPage.vue",
+      "file_type": "code",
+      "source_file": "src/pages/admin/IndexPage.vue",
+      "source_location": "L1",
+      "id": "src_pages_admin_indexpage_vue",
+      "community": 38,
+      "norm_label": "indexpage.vue"
+    },
+    {
+      "label": "ManageTeamup.vue",
+      "file_type": "code",
+      "source_file": "src/pages/admin/ManageTeamup.vue",
+      "source_location": "L1",
+      "id": "src_pages_admin_manageteamup_vue",
+      "community": 9,
+      "norm_label": "manageteamup.vue"
+    },
+    {
+      "label": "if()",
+      "file_type": "code",
+      "source_file": "src/pages/admin/ManageTeamup.vue",
+      "source_location": "L117",
+      "id": "admin_manageteamup_if",
+      "community": 9,
+      "norm_label": "if()"
+    },
+    {
+      "label": "ManageReservation.vue",
+      "file_type": "code",
+      "source_file": "src/pages/admin/ManageReservation.vue",
+      "source_location": "L1",
+      "id": "src_pages_admin_managereservation_vue",
+      "community": 39,
+      "norm_label": "managereservation.vue"
+    },
+    {
+      "label": "index.js",
+      "file_type": "code",
+      "source_file": "src/router/index.js",
+      "source_location": "L1",
+      "id": "src_router_index_js",
+      "community": 40,
+      "norm_label": "index.js"
+    },
+    {
+      "label": "routes.js",
+      "file_type": "code",
+      "source_file": "src/router/routes.js",
+      "source_location": "L1",
+      "id": "src_router_routes_js",
+      "community": 41,
+      "norm_label": "routes.js"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/TeamupCard.vue",
+      "source_location": "L34",
+      "weight": 1.0,
+      "_src": "src_components_teamupcard_vue",
+      "_tgt": "components_teamupcard_default",
+      "source": "src_components_teamupcard_vue",
+      "target": "components_teamupcard_default",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/LoginCard.vue",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_src": "src_components_logincard_vue",
+      "_tgt": "components_logincard_required",
+      "source": "src_components_logincard_vue",
+      "target": "components_logincard_required",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/LoginCard.vue",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_src": "src_components_logincard_vue",
+      "_tgt": "components_logincard_length",
+      "source": "src_components_logincard_vue",
+      "target": "components_logincard_length",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/RegisterCard.vue",
+      "source_location": "L27",
+      "weight": 1.0,
+      "_src": "src_components_registercard_vue",
+      "_tgt": "components_registercard_phone",
+      "source": "src_components_registercard_vue",
+      "target": "components_registercard_phone",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/RegisterCard.vue",
+      "source_location": "L30",
+      "weight": 1.0,
+      "_src": "src_components_registercard_vue",
+      "_tgt": "components_registercard_required",
+      "source": "src_components_registercard_vue",
+      "target": "components_registercard_required",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/RegisterCard.vue",
+      "source_location": "L33",
+      "weight": 1.0,
+      "_src": "src_components_registercard_vue",
+      "_tgt": "components_registercard_length",
+      "source": "src_components_registercard_vue",
+      "target": "components_registercard_length",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/RegisterCard.vue",
+      "source_location": "L38",
+      "weight": 1.0,
+      "_src": "src_components_registercard_vue",
+      "_tgt": "components_registercard_nickname",
+      "source": "src_components_registercard_vue",
+      "target": "components_registercard_nickname",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/RegisterCard.vue",
+      "source_location": "L41",
+      "weight": 1.0,
+      "_src": "src_components_registercard_vue",
+      "_tgt": "components_registercard_confirmpassword",
+      "source": "src_components_registercard_vue",
+      "target": "components_registercard_confirmpassword",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/BoardgameCard.vue",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_src": "src_components_boardgamecard_vue",
+      "_tgt": "components_boardgamecard_default",
+      "source": "src_components_boardgamecard_vue",
+      "target": "components_boardgamecard_default",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/frontPages/ReservationPage.vue",
+      "source_location": "L56",
+      "weight": 1.0,
+      "_src": "src_pages_frontpages_reservationpage_vue",
+      "_tgt": "frontpages_reservationpage_if",
+      "source": "src_pages_frontpages_reservationpage_vue",
+      "target": "frontpages_reservationpage_if",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/frontPages/JoinTeamupPage.vue",
+      "source_location": "L103",
+      "weight": 1.0,
+      "_src": "src_pages_frontpages_jointeamuppage_vue",
+      "_tgt": "frontpages_jointeamuppage_await",
+      "source": "src_pages_frontpages_jointeamuppage_vue",
+      "target": "frontpages_jointeamuppage_await",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/frontPages/TeamupPage.vue",
+      "source_location": "L44",
+      "weight": 1.0,
+      "_src": "src_pages_frontpages_teamuppage_vue",
+      "_tgt": "frontpages_teamuppage_length",
+      "source": "src_pages_frontpages_teamuppage_vue",
+      "target": "frontpages_teamuppage_length",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/admin/ManageBG.vue",
+      "source_location": "L90",
+      "weight": 1.0,
+      "_src": "src_pages_admin_managebg_vue",
+      "_tgt": "admin_managebg_if",
+      "source": "src_pages_admin_managebg_vue",
+      "target": "admin_managebg_if",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/admin/ManageBG.vue",
+      "source_location": "L243",
+      "weight": 1.0,
+      "_src": "src_pages_admin_managebg_vue",
+      "_tgt": "admin_managebg_isyturl",
+      "source": "src_pages_admin_managebg_vue",
+      "target": "admin_managebg_isyturl",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/admin/ManageBG.vue",
+      "source_location": "L246",
+      "weight": 1.0,
+      "_src": "src_pages_admin_managebg_vue",
+      "_tgt": "admin_managebg_gametime",
+      "source": "src_pages_admin_managebg_vue",
+      "target": "admin_managebg_gametime",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/admin/ManageBG.vue",
+      "source_location": "L249",
+      "weight": 1.0,
+      "_src": "src_pages_admin_managebg_vue",
+      "_tgt": "admin_managebg_age",
+      "source": "src_pages_admin_managebg_vue",
+      "target": "admin_managebg_age",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/admin/ManageAccount.vue",
+      "source_location": "L32",
+      "weight": 1.0,
+      "_src": "src_pages_admin_manageaccount_vue",
+      "_tgt": "admin_manageaccount_phone",
+      "source": "src_pages_admin_manageaccount_vue",
+      "target": "admin_manageaccount_phone",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/admin/ManageAccount.vue",
+      "source_location": "L35",
+      "weight": 1.0,
+      "_src": "src_pages_admin_manageaccount_vue",
+      "_tgt": "admin_manageaccount_required",
+      "source": "src_pages_admin_manageaccount_vue",
+      "target": "admin_manageaccount_required",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/admin/ManageAccount.vue",
+      "source_location": "L38",
+      "weight": 1.0,
+      "_src": "src_pages_admin_manageaccount_vue",
+      "_tgt": "admin_manageaccount_length",
+      "source": "src_pages_admin_manageaccount_vue",
+      "target": "admin_manageaccount_length",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/admin/ManageAccount.vue",
+      "source_location": "L43",
+      "weight": 1.0,
+      "_src": "src_pages_admin_manageaccount_vue",
+      "_tgt": "admin_manageaccount_nickname",
+      "source": "src_pages_admin_manageaccount_vue",
+      "target": "admin_manageaccount_nickname",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/admin/ManageAccount.vue",
+      "source_location": "L48",
+      "weight": 1.0,
+      "_src": "src_pages_admin_manageaccount_vue",
+      "_tgt": "admin_manageaccount_confirmpassword",
+      "source": "src_pages_admin_manageaccount_vue",
+      "target": "admin_manageaccount_confirmpassword",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/admin/ManageAccount.vue",
+      "source_location": "L109",
+      "weight": 1.0,
+      "_src": "src_pages_admin_manageaccount_vue",
+      "_tgt": "admin_manageaccount_if",
+      "source": "src_pages_admin_manageaccount_vue",
+      "target": "admin_manageaccount_if",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/admin/ManageTeamup.vue",
+      "source_location": "L117",
+      "weight": 1.0,
+      "_src": "src_pages_admin_manageteamup_vue",
+      "_tgt": "admin_manageteamup_if",
+      "source": "src_pages_admin_manageteamup_vue",
+      "target": "admin_manageteamup_if",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": []
+}

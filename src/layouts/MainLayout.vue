@@ -224,10 +224,10 @@ onUnmounted(() => {
       />
     </q-dialog>
 
-    <q-footer class="bg-primary text-dark">
-      <q-toolbar>
-        <q-avatar class="q-mr-sm">
-          <img src="../assets/logo.png" />
+    <q-footer class="bg-dark text-white">
+      <q-toolbar class="flex flex-center">
+        <q-avatar square class="q-mr-sm" size="45px">
+          <img src="../assets/logo.png" style="object-fit: contain;" />
         </q-avatar>
         <span class="text-center" style="font-size: 14px"
           >© {{ new Date().getFullYear() }}, Max Hu - All rights reserved.</span

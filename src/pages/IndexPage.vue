@@ -295,7 +295,7 @@ const modules = [Autoplay]
               alt="map"
               width="150"
             />
-            <b class="q-mt-lg">新北市泰山區貴子里致遠新村55之1號</b>
+            <b class="q-mt-lg">揪遊市璀璨寶石區妙語說書路</b>
           </div>
           <!-- opening hours -->
           <div
